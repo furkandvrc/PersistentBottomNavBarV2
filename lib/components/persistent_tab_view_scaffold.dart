@@ -76,7 +76,7 @@ class _PersistentTabViewScaffoldState extends State<PersistentTabViewScaffold>
   late final AnimationController _hideNavBarAnimationController =
       AnimationController(
     vsync: this,
-    duration: const Duration(milliseconds: 500),
+    duration: Duration.zero,
   );
   late final Animation<double> _animation = Tween<double>(
     begin: 1,
